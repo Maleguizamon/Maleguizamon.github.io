@@ -1,0 +1,60 @@
+@font-face{
+    font-family: 'FuenteEncabezado';
+    src: url('SHOWG.TTF');
+}
+#encabezadoWeb{
+    width: 500px;
+    background-color: grey;
+    text-align: center;
+    margin: 10px auto;
+    font: bold 15px 'FuenteEncabezado';
+}
+
+#barraNavegacion{
+    background-color:fuchsia;
+    text-align: right;
+    
+}
+
+#barraLateralIzquierda{
+    background-color: gold;
+    float: left;
+    height: 800px;
+    width: 15%;
+    margin: 15px auto;
+}
+
+#cajaPrincipal{
+    background-color: gray;
+    margin: 15px auto;
+    text-align: center;
+    width: 65%;
+    float: left;
+    
+}
+
+article{
+    background-color: red;
+}
+
+#barraLateralDerecha{
+    background-color: gold;
+    float: left;
+    height: 800px;
+    width: 15%;
+    margin:15px auto;
+}
+
+#pieDePagina{
+    background-color: salmon;
+    clear: both;
+    margin-top: 200px;
+}
+
+li{
+    background-color: green;
+    display: inline;
+}
+
+
+

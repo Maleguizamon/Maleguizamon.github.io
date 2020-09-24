@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal WEB</title>
+    <link href="HojaEstilosP1.css" rel="stylesheet"/>
+    <script src="EventosJS.js"></script>
+</head>
+<body>
+    <header id="principal">
+        <span id="titulo"> Miguel Angel</span>
+    </header>
+    <section id="cajaPrincipal">
+        <article id="articuloFotos">
+            <header id="TituloVideo">
+                <span>Galeria Fotografica 📸</span>
+            </header>
+            <figure id="Imagen">
+                <img src="Imagenes/urbano1.jfif" alt="Urban 1" width="200" height="200">
+                <figcaption><em>Urbano 1</em></figcaption>  
+            </figure>
+            <figure id="Imagen">
+                <img src="Imagenes/urbano2.jfif" alt="Urban 2" width="200" height="200">
+                <figcaption><em>Urbano 2</em></figcaption>                
+            </figure>
+            <figure id="Imagen">
+                <img src="Imagenes/urbano3.jfif" alt="Urban 3" width="200" height="200">
+                <figcaption><em>Urbano 3</em></figcaption>
+            </figure>
+            <figure id="Imagen">
+                <img src="Imagenes/brasil1.jpg" alt="Urban 1" width="200" height="200">
+                <figcaption><em>Piscina</em></figcaption>  
+            </figure>
+            <figure id="Imagen">
+                <img src="Imagenes/brasil2.jpg" alt="Urban 2" width="200" height="200">
+                <figcaption><em>Bosque</em></figcaption>                
+            </figure>
+            <figure id="Imagen">
+                <img src="Imagenes/brasil3.jpg" alt="Urban 3" width="200" height="200">
+                <figcaption><em>Olodum</em></figcaption>
+            </figure>
+        </article>
+        <article id="VideoPro">
+            <header id="TituloVideo">
+                <span>Video Pro de Warzone 📽️</span>
+            </header>
+            <video id="videoCod" src="Videos/Call of Duty  Modern Warfare 2019 2020.05.07 - 17.51.53.70.DVR.mp4" width="720" loop ></video>
+            <nav id="diseñoBarra">
+                <div id="botonesVideo">
+                    <button tipo="button" id="play">Play</button>
+                </div>
+                <div id="barraProgreso">
+                    <div id="progreso">
+                        
+                    </div>
+                </div>
+            </nav>
+        </article>
+        <article id="articuloAudio">
+            <header id="TituloVideo">
+                <span>Musica 🎸</span>
+            </header>
+            <figure>
+                <img src="Imagenes/ImagenPasion.jfif" alt="Pasion Gavilanes">
+            </figure> 
+            <audio id="gavilanes" src="sonido/Pasion.mp4" controls> </audio>
+        </article>
+        <article id="articuloFormulario">
+            <header id="TituloVideo">
+                <span>Formulario 📜</span>
+            </header>
+            <form name="Formulario" id="miFormilario" method="get" autocomplete="on">
+                Email:    &nbsp;<input type="email"  name="Email"    id="textoFormulario" placeholder=" Ejemplo@ejemplo.com" required  ><br><br>
+                Buscar:   &nbsp;<input type="search" name="Buscar"   id="TextoBuscar"     placeholder=" Buscar "                       ><br><br>
+                URL:      &nbsp;<input type="url"    name="url"      id="TextoUrl"        placeholder=" wwww.ejemplo.com"              ><br><br>
+                Telefono: &nbsp;<input type="tel"    name="Telefono" id="TextoTelefono"   placeholder=" +57...."                       ><br><br>
+                Edad:     &nbsp;<input type="number" name="Edad"     id="TextoEdad"       placeholder=" Edad " min="0" max="100"       ><br><br>
+                Edad 2:   &nbsp;<input type="range"  name="Edad2"    id="TextoEdad2"      placeholder=" Edad 2 "                       ><br><br>
+                Fecha:    &nbsp;<input type="date"   name="Fecha"    id="TextoFecha"                                                   ><br><br>
+                Mes:      &nbsp;<input type="month"  name="Mes"      id="TextoMes"                                                     ><br><br>
+                Semana:   &nbsp;<input type="week"   name="Semana"   id="TextoSemana"                                                  ><br><br>
+                hora:     &nbsp;<input type="time"   name="Hora"     id="TextoHora"                                                    ><br><br>
+                Texto:    &nbsp;<input type="text"   name="Texto"    id="textoTexto"      placeholder=" Texto ejemplo. "               ><br><br>
+                <input type="submit">
+            </form>
+        </article>
+        <article id="Formulario_DataList">
+            <form name="Registro" method="get">
+                <datalist id="informacion">
+                    <option value="1234567890" label="Telefono 1">
+                    <option value="3216549870" label="Telefono 2">
+                    <option value="9876543210" label="Telefono 3">
+                </datalist>
+                Telefono:&nbsp;<input type="tel" name="telefono" id="Texto2Telefono" list="informacion">
+            </form>
+            <form name="Registro_Usuario" method="get">
+                <table><tr><td>
+                    Nombre:</td><td><input type="text" name="Nombre" id="FormularioNombre"></td><tr>
+                    <tr><td>
+                    Apellido:</td><td><input type="text" name="Apellido" id="FormularioApellido"></td><tr>
+                    <tr><td>
+                    Edad:</td><td><input type="number" name="Edad" id="FormularioEdad" min="1" max="100"></td><tr>
+                    <tr><td>
+                    <input type="submit" id="Enviar" value="Registrar"></td></tr>
+                </table>
+            </form>
+        </article>
+        <footer id="Pie_pagina">
+            <p> Pie de pagina </p>
+        </footer>
+    </section>
+</body>
+</html>

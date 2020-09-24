@@ -1,0 +1,150 @@
+
+#principal{
+    width: 500px;
+    background: -webkit-radial-gradient(center, ellipse,white, grey);
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: black 5px 10px 5px;
+    transition: transform 1s ease 0.5s;
+    margin: 50px auto;
+
+}
+#principal:hover{
+    transform: rotate(3deg);
+}
+@font-face {
+    font-family: 'FuenteWeb';
+    src: url('VIVALDII.TTF');
+}
+#titulo{
+    font: bold 36px 'FuenteWeb' ;
+}
+#cajaPrincipal{
+    width: 90%;
+    background-color: gray;
+    margin: 10px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+
+#articuloFotos{
+    background-color: hotpink;
+    border: 3px solid grey;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Imagen{
+    background-color: whitesmoke;
+    width: 400px, 400px;
+    padding: 5px;
+    margin: 10px auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+img{
+    width: 200px;
+    border: 3px solid black;
+    transition: transform 0.05s ease 0.05s;
+}
+img:hover{
+    transform: scale(1.09);
+}
+
+video{
+    background-color: grey;
+    width: 1080px;
+    margin: 12px auto;
+    padding: 5px;
+
+}
+
+#VideoPro{
+    margin: 40px auto;
+    border: 3px solid grey;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#TituloVideo{
+    width: 600px;
+    background: -webkit-radial-gradient(center, ellipse,white, grey);
+    text-align: center;
+    padding: 2px;
+    border: 3px solid black;
+    border-radius: 5px;
+    box-shadow: black 5px 10px 5px;
+    margin: 20px auto;
+    font: bold 30px 'FuenteWeb' ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#botonesVideo{
+    float: left;
+    width: 100px;
+    height: 20px;
+    margin-left: 109px;
+}
+
+#barraProgreso{  
+    border: 1px solid black;
+    margin-left: 200px;
+    width: 1000px;
+    height: 20px;
+}
+
+#progreso{
+    position: absolute;
+    width: 0px;
+    height: 20px;
+    background-color: brown;
+}
+
+#articuloAudio{
+    background-color: aquamarine;
+    border: 3px solid grey;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#articuloFormulario{
+    background-color: blanchedalmond;
+    border: 3px solid grey;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#Formulario_DataList{
+    background-color: plum;
+    border: 3px solid grey;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+table{
+    text-align: center;
+}
+
+td{
+    padding: 10px;
+}
+
+#Pie_pagina{
+    background-color: greenyellow;
+    border: 3px solid grey;
+    margin: 30px auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
